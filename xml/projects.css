@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Rubik:wght@300;400;500;600;700&display=swap');
+
+projects {
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #ebddc5;
+    color: #424242;
+    padding: 2rem;
+}
+
+project {
+    display: block;
+    background-color: #f2e8d8;
+    margin: 2rem auto;
+    padding: 2rem;
+    max-width: 900px;
+    border-radius: 1rem;
+    box-shadow: 0 4px 10px #909bac;
+}
+
+title {
+    display: block;
+    font-family: 'Rubik', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #2e4365;
+    margin-bottom: 0.5rem;
+}
+
+project > description {
+    display: block;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+content {
+    display: block;
+    padding: 1rem;
+    background-color: #ebddc5;
+    border-radius: 0.75rem;
+}
+
+artwork {
+    display: block;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #2e4365;
+    margin-top: 1rem;
+}
+
+date {
+    display: block;
+    font-size: 0.85rem;
+    color: #777777;
+    margin-top: 0.25rem;
+    margin-bottom: 0.75rem;
+}
+
+content description {
+    display: block;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    margin: 0.5rem 0 1rem 0;
+    padding-left: 1rem;
+    border-left: 3px solid #7b99b1;
+}
+
+artwork[ip]::after {
+    content: " | " attr(ip);
+    font-size: 0.85rem;
+    font-weight: 400;
+    color: #7b99b1;
+}
+
+artwork[affiliation]::before {
+    content: attr(affiliation) " | ";
+    font-size: 0.85rem;
+    color: #ce9938;
+    font-weight: 500;
+}
+
+/* Mobile layout */
+@media screen and (max-width: 600px) {
+    projects {
+        padding: 1rem;
+    }
+
+    project {
+        padding: 1.25rem;
+        margin: 1rem auto;
+    }
+
+    title {
+        font-size: 1.6rem;
+    }
+
+    artwork {
+        font-size: 1.1rem;
+    }
+
+    content {
+        padding: 0.75rem;
+    }
+}

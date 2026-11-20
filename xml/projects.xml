@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="projects.css"?>
+
+<projects>
+    <project>
+        <title>Digital Fanart</title>
+        <description>A collection of artworks I've made with characters from different IPs</description>
+            <content>
+                <artwork ip="Honkai: Star Rail" image="passion_projects/Gil.jpg">Gilgamesh</artwork>
+                    <date>August 24, 2026</date>
+                <artwork ip="Persona" image="passion_projects/Kanji.jpg">Kanji</artwork>
+                    <date>June 28, 2026</date>
+            </content>
+    </project>
+    <project>
+        <title>Art Merch</title>
+        <description>Art that has/will be physically printed to be sold as merch.</description>
+            <content>
+                <artwork affiliation="KultOU" ip="Honkai: Star Rail" image="passion_projects/Mydei.jpg">Mydei</artwork>
+                    <date>September 7, 2026</date> 
+                <artwork affiliation="KultOU" ip="Honkai: Star Rail" image="passion_projects/Phainon.jpg">Phainon</artwork>
+                    <date>September 7, 2026</date>
+            </content>
+    </project>
+    <project>
+        <title>Placeholder Comic</title>
+        <description>
+            An idea for a comic that I am fleshing out as of now. It is currently in it's infancy and I am
+            undecided if I will ever publish it.
+        </description>
+            <content>
+                <artwork image="passion_projects/Ryu.jpg">Ryu</artwork>
+                    <date>June 13, 2026</date>
+                    <description>
+                        The main character of the comic
+                    </description>
+                <artwork image="passion_projects/Aurelia.jpg">Aurelia</artwork>
+                    <date>October 13, 2026</date>
+                    <description>
+                        The main heroine of the comic
+                    </description>
+                <artwork image="passion_projects/RyuIllus.jpg">Establishing Illustration of Ryu</artwork>
+                    <date>March 22, 2026</date>
+                    <description>
+                        An experimental composition inspired by Wong Kar Wai, whilst featuring Ryu
+                    </description>
+            </content>
+    </project>
+</projects>
